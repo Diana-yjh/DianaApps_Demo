@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var draw: Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        KakaoMapView(draw: $draw).onAppear(perform: {
+            self.draw = true
+        }).onDisappear(perform: {
+            self.draw = false
+        }).frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 

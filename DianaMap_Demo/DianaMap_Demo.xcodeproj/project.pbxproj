@@ -11,6 +11,8 @@
 		8B0CCCD72C0D8B5D006AD0EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0CCCD62C0D8B5D006AD0EF /* ContentView.swift */; };
 		8B0CCCD92C0D8B60006AD0EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0CCCD82C0D8B60006AD0EF /* Assets.xcassets */; };
 		8B0CCCDC2C0D8B60006AD0EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0CCCDB2C0D8B60006AD0EF /* Preview Assets.xcassets */; };
+		8B0CCCE32C0D8BD6006AD0EF /* KakaoMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0CCCE22C0D8BD5006AD0EF /* KakaoMapsView.swift */; };
+		8B0CCCE62C0D8C00006AD0EF /* KakaoMapsSDK-SPM in Frameworks */ = {isa = PBXBuildFile; productRef = 8B0CCCE52C0D8C00006AD0EF /* KakaoMapsSDK-SPM */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,7 @@
 		8B0CCCD62C0D8B5D006AD0EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B0CCCD82C0D8B60006AD0EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B0CCCDB2C0D8B60006AD0EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B0CCCE22C0D8BD5006AD0EF /* KakaoMapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoMapsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B0CCCE62C0D8C00006AD0EF /* KakaoMapsSDK-SPM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +57,7 @@
 			children = (
 				8B0CCCD42C0D8B5D006AD0EF /* DianaMap_DemoApp.swift */,
 				8B0CCCD62C0D8B5D006AD0EF /* ContentView.swift */,
+				8B0CCCE22C0D8BD5006AD0EF /* KakaoMapsView.swift */,
 				8B0CCCD82C0D8B60006AD0EF /* Assets.xcassets */,
 				8B0CCCDA2C0D8B60006AD0EF /* Preview Content */,
 			);
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = DianaMap_Demo;
+			packageProductDependencies = (
+				8B0CCCE52C0D8C00006AD0EF /* KakaoMapsSDK-SPM */,
+			);
 			productName = DianaMap_Demo;
 			productReference = 8B0CCCD12C0D8B5D006AD0EF /* DianaMap_Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = 8B0CCCC82C0D8B5D006AD0EF;
+			packageReferences = (
+				8B0CCCE42C0D8C00006AD0EF /* XCRemoteSwiftPackageReference "KakaoMapsSDK-SPM" */,
+			);
 			productRefGroup = 8B0CCCD22C0D8B5D006AD0EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B0CCCE32C0D8BD6006AD0EF /* KakaoMapsView.swift in Sources */,
 				8B0CCCD72C0D8B5D006AD0EF /* ContentView.swift in Sources */,
 				8B0CCCD52C0D8B5D006AD0EF /* DianaMap_DemoApp.swift in Sources */,
 			);
@@ -344,6 +356,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B0CCCE42C0D8C00006AD0EF /* XCRemoteSwiftPackageReference "KakaoMapsSDK-SPM" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao-mapsSDK/KakaoMapsSDK-SPM.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.10.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B0CCCE52C0D8C00006AD0EF /* KakaoMapsSDK-SPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B0CCCE42C0D8C00006AD0EF /* XCRemoteSwiftPackageReference "KakaoMapsSDK-SPM" */;
+			productName = "KakaoMapsSDK-SPM";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8B0CCCC92C0D8B5D006AD0EF /* Project object */;
 }
