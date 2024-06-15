@@ -23,3 +23,12 @@
 |<img src = "https://github.com/Diana-yjh/DianaApps_Demo/blob/main/Resources/DianaMaskingZone/DianaMaskingZone_Demo.gif" width = "200"/>|
 
 </br>
+
+### 📱 [DianaVoiceModulator_Demo](https://github.com/Diana-yjh/DianaApps_Demo/tree/main/DianaVoiceModulator_Demo)
+- 설명: AVFoundation을 사용하여 사용자의 목소리 변조할 수 있는 앱
+- 스택: Swift, Storyboard
+</br>
+
+|실행화면|
+|---|
+|<img src = "https://github.com/Diana-yjh/DianaApps_Demo/blob/main/Resources/DianaVoiceModulator/DianaVoiceModulator_Demo.gif" width = "200"/>|
