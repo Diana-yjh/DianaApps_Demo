@@ -9,7 +9,6 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController, AVAudioRecorderDelegate {
-    
     @IBOutlet weak var recordButton: UIButton!
     @IBOutlet weak var modulButton: UIButton!
     @IBOutlet weak var echoButton: UIButton!
@@ -69,7 +68,8 @@ class ViewController: UIViewController, AVAudioRecorderDelegate {
             try! audioSession.setCategory(.playAndRecord, mode: .spokenAudio, options: .defaultToSpeaker)
             
             try! audioRecorder = AVAudioRecorder(url: filePath!, settings: [:])
-            audioRecorder.delegate = self
+            
+                .delegate = self
             audioRecorder.isMeteringEnabled = true
             audioRecorder.prepareToRecord()
             audioRecorder.record()
