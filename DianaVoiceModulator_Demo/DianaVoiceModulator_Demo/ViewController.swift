@@ -68,8 +68,7 @@ class ViewController: UIViewController, AVAudioRecorderDelegate {
             try! audioSession.setCategory(.playAndRecord, mode: .spokenAudio, options: .defaultToSpeaker)
             
             try! audioRecorder = AVAudioRecorder(url: filePath!, settings: [:])
-            
-                .delegate = self
+            audioRecorder.delegate = self
             audioRecorder.isMeteringEnabled = true
             audioRecorder.prepareToRecord()
             audioRecorder.record()
