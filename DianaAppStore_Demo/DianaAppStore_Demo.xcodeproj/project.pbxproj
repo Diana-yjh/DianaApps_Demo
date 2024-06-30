@@ -7,127 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B7038D32C24687E0037E4FF /* DianaRxSwift_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7038D22C24687E0037E4FF /* DianaRxSwift_DemoApp.swift */; };
-		8B7038D52C24687E0037E4FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7038D42C24687E0037E4FF /* ContentView.swift */; };
-		8B7038D72C2468810037E4FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7038D62C2468810037E4FF /* Assets.xcassets */; };
-		8B7038DA2C2468810037E4FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7038D92C2468810037E4FF /* Preview Assets.xcassets */; };
-		8BB45A352C25179D00C00DD4 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB45A342C25179D00C00DD4 /* SecondView.swift */; };
-		8BB45A372C2517A400C00DD4 /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB45A362C2517A400C00DD4 /* SecondViewModel.swift */; };
-		8BB45A3D2C25183100C00DD4 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8BB45A3C2C25183100C00DD4 /* RxSwift */; };
+		8BDB5E292C3127F700B090AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDB5E282C3127F700B090AE /* AppDelegate.swift */; };
+		8BDB5E2B2C3127F700B090AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDB5E2A2C3127F700B090AE /* SceneDelegate.swift */; };
+		8BDB5E2D2C3127F700B090AE /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDB5E2C2C3127F700B090AE /* TodayViewController.swift */; };
+		8BDB5E322C3127F900B090AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDB5E312C3127F900B090AE /* Assets.xcassets */; };
+		8BDB5E352C3127F900B090AE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8BDB5E342C3127F900B090AE /* Base */; };
+		8BDB5E412C3130FF00B090AE /* TodayTitleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDB5E402C3130FF00B090AE /* TodayTitleSection.swift */; };
+		8BDB5E432C315B3300B090AE /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDB5E422C315B3200B090AE /* Section.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		8B2658142C251B1800780358 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		8B7038CF2C24687E0037E4FF /* DianaRxSwift_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DianaRxSwift_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B7038D22C24687E0037E4FF /* DianaRxSwift_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DianaRxSwift_DemoApp.swift; sourceTree = "<group>"; };
-		8B7038D42C24687E0037E4FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8B7038D62C2468810037E4FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8B7038D92C2468810037E4FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8BB45A342C25179D00C00DD4 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
-		8BB45A362C2517A400C00DD4 /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
+		8BDB5E252C3127F700B090AE /* DianaAppStore_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DianaAppStore_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDB5E282C3127F700B090AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BDB5E2A2C3127F700B090AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8BDB5E2C2C3127F700B090AE /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		8BDB5E312C3127F900B090AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BDB5E342C3127F900B090AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BDB5E362C3127F900B090AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BDB5E402C3130FF00B090AE /* TodayTitleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTitleSection.swift; sourceTree = "<group>"; };
+		8BDB5E422C315B3200B090AE /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8B7038CC2C24687E0037E4FF /* Frameworks */ = {
+		8BDB5E222C3127F700B090AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB45A3D2C25183100C00DD4 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B7038C62C24687E0037E4FF = {
+		8BDB5E1C2C3127F700B090AE = {
 			isa = PBXGroup;
 			children = (
-				8B7038D12C24687E0037E4FF /* DianaRxSwift_Demo */,
-				8B7038D02C24687E0037E4FF /* Products */,
+				8BDB5E272C3127F700B090AE /* DianaAppStore_Demo */,
+				8BDB5E262C3127F700B090AE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8B7038D02C24687E0037E4FF /* Products */ = {
+		8BDB5E262C3127F700B090AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B7038CF2C24687E0037E4FF /* DianaRxSwift_Demo.app */,
+				8BDB5E252C3127F700B090AE /* DianaAppStore_Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B7038D12C24687E0037E4FF /* DianaRxSwift_Demo */ = {
+		8BDB5E272C3127F700B090AE /* DianaAppStore_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				8B7038D22C24687E0037E4FF /* DianaRxSwift_DemoApp.swift */,
-				8B7038D42C24687E0037E4FF /* ContentView.swift */,
-				8BB45A342C25179D00C00DD4 /* SecondView.swift */,
-				8BB45A362C2517A400C00DD4 /* SecondViewModel.swift */,
-				8B7038D62C2468810037E4FF /* Assets.xcassets */,
-				8B7038D82C2468810037E4FF /* Preview Content */,
+				8BDB5E3E2C3129DE00B090AE /* ViewControllers */,
+				8BDB5E3C2C3129CC00B090AE /* Sections */,
+				8BDB5E282C3127F700B090AE /* AppDelegate.swift */,
+				8BDB5E2A2C3127F700B090AE /* SceneDelegate.swift */,
+				8BDB5E312C3127F900B090AE /* Assets.xcassets */,
+				8BDB5E332C3127F900B090AE /* LaunchScreen.storyboard */,
+				8BDB5E362C3127F900B090AE /* Info.plist */,
 			);
-			path = DianaRxSwift_Demo;
+			path = DianaAppStore_Demo;
 			sourceTree = "<group>";
 		};
-		8B7038D82C2468810037E4FF /* Preview Content */ = {
+		8BDB5E3C2C3129CC00B090AE /* Sections */ = {
 			isa = PBXGroup;
 			children = (
-				8B7038D92C2468810037E4FF /* Preview Assets.xcassets */,
+				8BDB5E422C315B3200B090AE /* Section.swift */,
+				8BDB5E402C3130FF00B090AE /* TodayTitleSection.swift */,
 			);
-			path = "Preview Content";
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		8BDB5E3E2C3129DE00B090AE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BDB5E2C2C3127F700B090AE /* TodayViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B7038CE2C24687E0037E4FF /* DianaRxSwift_Demo */ = {
+		8BDB5E242C3127F700B090AE /* DianaAppStore_Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B7038DD2C2468810037E4FF /* Build configuration list for PBXNativeTarget "DianaRxSwift_Demo" */;
+			buildConfigurationList = 8BDB5E392C3127F900B090AE /* Build configuration list for PBXNativeTarget "DianaAppStore_Demo" */;
 			buildPhases = (
-				8B7038CB2C24687E0037E4FF /* Sources */,
-				8B7038CC2C24687E0037E4FF /* Frameworks */,
-				8B7038CD2C24687E0037E4FF /* Resources */,
-				8B2658142C251B1800780358 /* Embed Frameworks */,
+				8BDB5E212C3127F700B090AE /* Sources */,
+				8BDB5E222C3127F700B090AE /* Frameworks */,
+				8BDB5E232C3127F700B090AE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DianaRxSwift_Demo;
-			packageProductDependencies = (
-				8BB45A3C2C25183100C00DD4 /* RxSwift */,
-			);
-			productName = DianaRxSwift_Demo;
-			productReference = 8B7038CF2C24687E0037E4FF /* DianaRxSwift_Demo.app */;
+			name = DianaAppStore_Demo;
+			productName = DianaAppStore_Demo;
+			productReference = 8BDB5E252C3127F700B090AE /* DianaAppStore_Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8B7038C72C24687E0037E4FF /* Project object */ = {
+		8BDB5E1D2C3127F700B090AE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					8B7038CE2C24687E0037E4FF = {
+					8BDB5E242C3127F700B090AE = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 8B7038CA2C24687E0037E4FF /* Build configuration list for PBXProject "DianaRxSwift_Demo" */;
+			buildConfigurationList = 8BDB5E202C3127F700B090AE /* Build configuration list for PBXProject "DianaAppStore_Demo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,47 +129,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 8B7038C62C24687E0037E4FF;
-			packageReferences = (
-				8B7038E42C2479F80037E4FF /* XCRemoteSwiftPackageReference "RxSwift" */,
-			);
-			productRefGroup = 8B7038D02C24687E0037E4FF /* Products */;
+			mainGroup = 8BDB5E1C2C3127F700B090AE;
+			productRefGroup = 8BDB5E262C3127F700B090AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B7038CE2C24687E0037E4FF /* DianaRxSwift_Demo */,
+				8BDB5E242C3127F700B090AE /* DianaAppStore_Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8B7038CD2C24687E0037E4FF /* Resources */ = {
+		8BDB5E232C3127F700B090AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B7038DA2C2468810037E4FF /* Preview Assets.xcassets in Resources */,
-				8B7038D72C2468810037E4FF /* Assets.xcassets in Resources */,
+				8BDB5E322C3127F900B090AE /* Assets.xcassets in Resources */,
+				8BDB5E352C3127F900B090AE /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8B7038CB2C24687E0037E4FF /* Sources */ = {
+		8BDB5E212C3127F700B090AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB45A372C2517A400C00DD4 /* SecondViewModel.swift in Sources */,
-				8BB45A352C25179D00C00DD4 /* SecondView.swift in Sources */,
-				8B7038D52C24687E0037E4FF /* ContentView.swift in Sources */,
-				8B7038D32C24687E0037E4FF /* DianaRxSwift_DemoApp.swift in Sources */,
+				8BDB5E432C315B3300B090AE /* Section.swift in Sources */,
+				8BDB5E2D2C3127F700B090AE /* TodayViewController.swift in Sources */,
+				8BDB5E292C3127F700B090AE /* AppDelegate.swift in Sources */,
+				8BDB5E412C3130FF00B090AE /* TodayTitleSection.swift in Sources */,
+				8BDB5E2B2C3127F700B090AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		8BDB5E332C3127F900B090AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BDB5E342C3127F900B090AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		8B7038DB2C2468810037E4FF /* Debug */ = {
+		8BDB5E372C3127F900B090AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +241,7 @@
 			};
 			name = Debug;
 		};
-		8B7038DC2C2468810037E4FF /* Release */ = {
+		8BDB5E382C3127F900B090AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,20 +297,18 @@
 			};
 			name = Release;
 		};
-		8B7038DE2C2468810037E4FF /* Debug */ = {
+		8BDB5E3A2C3127F900B090AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DianaRxSwift_Demo/Preview Content\"";
 				DEVELOPMENT_TEAM = 283MVWC922;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DianaAppStore_Demo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,7 +316,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.diana.DianaRxSwift-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.yejinhong.DianaAppStore-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,20 +324,18 @@
 			};
 			name = Debug;
 		};
-		8B7038DF2C2468810037E4FF /* Release */ = {
+		8BDB5E3B2C3127F900B090AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DianaRxSwift_Demo/Preview Content\"";
 				DEVELOPMENT_TEAM = 283MVWC922;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DianaAppStore_Demo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -344,7 +343,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.diana.DianaRxSwift-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.yejinhong.DianaAppStore-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -355,44 +354,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B7038CA2C24687E0037E4FF /* Build configuration list for PBXProject "DianaRxSwift_Demo" */ = {
+		8BDB5E202C3127F700B090AE /* Build configuration list for PBXProject "DianaAppStore_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B7038DB2C2468810037E4FF /* Debug */,
-				8B7038DC2C2468810037E4FF /* Release */,
+				8BDB5E372C3127F900B090AE /* Debug */,
+				8BDB5E382C3127F900B090AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B7038DD2C2468810037E4FF /* Build configuration list for PBXNativeTarget "DianaRxSwift_Demo" */ = {
+		8BDB5E392C3127F900B090AE /* Build configuration list for PBXNativeTarget "DianaAppStore_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B7038DE2C2468810037E4FF /* Debug */,
-				8B7038DF2C2468810037E4FF /* Release */,
+				8BDB5E3A2C3127F900B090AE /* Debug */,
+				8BDB5E3B2C3127F900B090AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		8B7038E42C2479F80037E4FF /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.7.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		8BB45A3C2C25183100C00DD4 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8B7038E42C2479F80037E4FF /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 8B7038C72C24687E0037E4FF /* Project object */;
+	rootObject = 8BDB5E1D2C3127F700B090AE /* Project object */;
 }
