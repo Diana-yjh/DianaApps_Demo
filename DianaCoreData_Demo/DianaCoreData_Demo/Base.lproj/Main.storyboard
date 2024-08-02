@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DianaCoreData_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yun-qA-Qoy">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="버튼을 터치한 횟수" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Urz-to-fQb">
+                                <rect key="frame" x="86" y="119" width="221" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xY-XB-ZHp">
+                                <rect key="frame" x="188.66666666666666" y="185" width="15.666666666666657" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zaw-vt-erN">
+                                <rect key="frame" x="121.66666666666669" y="411" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="YCm-oy-jSy"/>
+                                    <constraint firstAttribute="width" constant="150" id="fcI-FP-FbH"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="터치"/>
+                                <connections>
+                                    <action selector="touchNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jss-sm-1Zx"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PHI-rv-26M">
+                                <rect key="frame" x="71.666666666666686" y="331" width="250" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="TFw-zd-mGM"/>
+                                    <constraint firstAttribute="width" constant="250" id="d9o-HS-6Nn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="저장한 글" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LUc-Q3-yaB">
+                                <rect key="frame" x="141" y="265" width="111" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTW-KJ-ej2">
+                                <rect key="frame" x="121.66666666666669" y="481" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Kcr-hB-cH7"/>
+                                    <constraint firstAttribute="width" constant="150" id="WX8-FQ-KnW"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="저장"/>
+                                <connections>
+                                    <action selector="saveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4uq-T9-Rfb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kcm-0l-efd">
+                                <rect key="frame" x="121.66666666666669" y="551" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Y1X-li-Nx2"/>
+                                    <constraint firstAttribute="height" constant="50" id="yaP-ty-RgT"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="리셋"/>
+                                <connections>
+                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1UK-hv-SCY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7lG-Uj-c0O"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6xY-XB-ZHp" firstAttribute="centerX" secondItem="yun-qA-Qoy" secondAttribute="centerX" id="2RD-9P-F9s"/>
+                            <constraint firstItem="Kcm-0l-efd" firstAttribute="top" secondItem="mTW-KJ-ej2" secondAttribute="bottom" constant="20" id="896-8x-KBJ"/>
+                            <constraint firstItem="Zaw-vt-erN" firstAttribute="centerX" secondItem="yun-qA-Qoy" secondAttribute="centerX" id="Ay4-ar-wBU"/>
+                            <constraint firstItem="Zaw-vt-erN" firstAttribute="top" secondItem="PHI-rv-26M" secondAttribute="bottom" constant="30" id="LSW-8E-btJ"/>
+                            <constraint firstItem="mTW-KJ-ej2" firstAttribute="top" secondItem="Zaw-vt-erN" secondAttribute="bottom" constant="20" id="Md2-l5-9c2"/>
+                            <constraint firstItem="PHI-rv-26M" firstAttribute="centerX" secondItem="yun-qA-Qoy" secondAttribute="centerX" id="Sj9-mU-DW9"/>
+                            <constraint firstItem="Kcm-0l-efd" firstAttribute="centerX" secondItem="yun-qA-Qoy" secondAttribute="centerX" id="Unr-MW-Aej"/>
+                            <constraint firstItem="PHI-rv-26M" firstAttribute="top" secondItem="LUc-Q3-yaB" secondAttribute="bottom" constant="30" id="dDy-Eu-RJc"/>
+                            <constraint firstItem="Urz-to-fQb" firstAttribute="top" secondItem="7lG-Uj-c0O" secondAttribute="top" constant="60" id="dfD-ng-tv9"/>
+                            <constraint firstItem="LUc-Q3-yaB" firstAttribute="top" secondItem="6xY-XB-ZHp" secondAttribute="bottom" constant="50" id="en5-NF-HFW"/>
+                            <constraint firstItem="6xY-XB-ZHp" firstAttribute="top" secondItem="Urz-to-fQb" secondAttribute="bottom" constant="30" id="jKo-Op-UU8"/>
+                            <constraint firstItem="mTW-KJ-ej2" firstAttribute="centerX" secondItem="yun-qA-Qoy" secondAttribute="centerX" id="qCL-SY-nSE"/>
+                            <constraint firstItem="Urz-to-fQb" firstAttribute="centerX" secondItem="yun-qA-Qoy" secondAttribute="centerX" id="rN4-kU-f3N"/>
+                            <constraint firstItem="LUc-Q3-yaB" firstAttribute="centerX" secondItem="yun-qA-Qoy" secondAttribute="centerX" id="wvH-BG-uHM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="saveButton" destination="Zaw-vt-erN" id="s3D-j8-kqu"/>
+                        <outlet property="savedTextField" destination="PHI-rv-26M" id="rGK-64-QAp"/>
+                        <outlet property="touchButton" destination="Zaw-vt-erN" id="T7W-NU-haU"/>
+                        <outlet property="touchedNumber" destination="6xY-XB-ZHp" id="JTz-u7-BwD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

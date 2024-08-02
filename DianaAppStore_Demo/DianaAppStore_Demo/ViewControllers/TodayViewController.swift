@@ -8,9 +8,9 @@
 import UIKit
 
 class TodayViewController: UIViewController {
-    var sections: 
+    var sections: [Section] = []
     
-    let collectionView: UICollectionView = UICollectionView(frame: .zero, collectionViewLayout: .)
+    let collectionView: UICollectionView = UICollectionView(frame: .zero, collectionViewLayout: collectionViewLayout)
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
