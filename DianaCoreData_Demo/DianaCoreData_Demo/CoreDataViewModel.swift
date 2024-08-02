@@ -17,9 +17,10 @@ class CoreDataViewModel {
     }
     
     func fetchData() -> DataEntity? {
+        let context = persistentContainer.viewContext
         let request = NSFetchRequest<DataEntity>(entityName: "DataEntity")
         do {
-            data = try persistentContainer.viewContext.fetch(request)
+            data = try context.fetch(request)
             print("Data in CoreData = \(data)")
         } catch {
             print("ERROR Fetching Core Data")
